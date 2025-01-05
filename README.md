@@ -102,7 +102,7 @@ Host community events and hackathons to encourage user engagement and collect ac
 
 Technical Diagram: Platform Launch Workflow
 
-```graph TD
+```mermaid
     A[User Accesses CreateNow.xyz] --> B[Logs in]
     B --> C[Generates Content Using AI Models]
     C --> D[Content Saved and Shared]
@@ -137,7 +137,7 @@ Integrate tipping with social media platforms to extend the reach and utility of
 
 Technical Diagram: Tipping System Workflow
 
-```graph TD
+```mermaid
     A[User Likes Content] --> B[Tips Creator Using create]
     B --> C[Smart Contract Records Tip]
     C --> D[Creator Wallet Receives Tokens]
@@ -169,7 +169,7 @@ Enable proposal submissions for new features and community initiatives.
 
 Technical Diagram: DAO Governance Cycle
 
-```graph TD
+```mermaid
     A[Proposal Submission] --> B[Community Voting]
     B --> C[Smart Contract Executes Decision]
     C --> D[Resource Allocation or Feature Rollout]
@@ -201,7 +201,7 @@ Establish a research fund to support AI ethics and transparency initiatives.
 
 Technical Diagram: Content Economy Workflow
 
-```graph TD
+```mermaid
     A[User Generates Content] --> B[Mints as NFT]
     B --> C[Lists on Marketplace]
     C --> D[Buyer Purchases NFT Using create]
@@ -238,7 +238,7 @@ Strategic Reserves: 20%
 
 Technical Diagram: Token Utility Overview
 
-```graph TD
+```mermaid
     A[createnow.xyz Tokens] --> B[Credits for Content Generation]
     A --> C[Tipping Creators]
     A --> D[Minting NFTs]
@@ -262,7 +262,7 @@ Content Delivery: The generated content is returned to the user and optionally p
 
 Technical Diagram: Platform Architecture
 
-```graph TD
+```mermaid
     A[User Submits Request] --> B[Orchestration Agent]
     B --> C[AI Model Selection]
     C --> D[AI Model Execution]
