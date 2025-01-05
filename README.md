@@ -40,39 +40,29 @@ The vision of CreateNow is to:
 
 The initial launch of https://createnow.xyz introduces the foundational features of the platform:
 
-Integration with Swarms Cloud: Leveraging scalable AI compute for efficient content generation.
-
-Core Features: Image and music generation using cutting-edge AI models.
-
-User-Friendly Interface: A simple and intuitive interface for content creation and sharing.
-
-Content Sharing: Users can upload and share their generated content directly on the platform's gallery, fostering a community of inspiration and collaboration.
+- Integration with Swarms Cloud: Leveraging scalable AI compute for efficient content generation.
+- Core Features: Image and music generation using cutting-edge AI models.
+- User-Friendly Interface: A simple and intuitive interface for content creation and sharing.
+- Content Sharing: Users can upload and share their generated content directly on the platform's gallery, fostering a community of inspiration and collaboration.
 
 ### 2.2 Coin Launch
 
 The createnow.xyz Token (create) serves as the backbone of the platform's economy, enabling:
 
-Payments: Users can purchase content generation credits.
-
-NFT Minting: Mint and trade AI-generated NFTs.
-
-Tipping: Reward creators directly.
-
-Governance: Participate in DAO decision-making.
-
-Marketplace Transactions: Facilitate the buying and selling of content and services within the CreateNow ecosystem.
+- Payments: Users can purchase content generation credits.
+- NFT Minting: Mint and trade AI-generated NFTs.
+- Tipping: Reward creators directly.
+- Governance: Participate in DAO decision-making.
+- Marketplace Transactions: Facilitate the buying and selling of content and services within the CreateNow ecosystem.
 
 ### 2.3 Early Partnerships and Feedback
 
 CreateNow aims to foster collaboration with:
 
-Creators and Developers: Building tools and features aligned with user needs.
-
-Industry Stakeholders: Establishing partnerships to expand the platform's reach.
-
-Community Engagement: Gathering feedback to guide enhancements and prioritize feature development.
-
-Academic Institutions: Partnering with research organizations to explore the ethical implications of AI-generated content and ensure transparency and accountability in the platform's development.
+- Creators and Developers: Building tools and features aligned with user needs.
+- Industry Stakeholders: Establishing partnerships to expand the platform's reach.
+- Community Engagement: Gathering feedback to guide enhancements and prioritize feature development.
+- Academic Institutions: Partnering with research organizations to explore the ethical implications of AI-generated content.
 
 ## 3. Detailed Roadmap
 
@@ -103,6 +93,7 @@ Host community events and hackathons to encourage user engagement and collect ac
 Technical Diagram: Platform Launch Workflow
 
 ```mermaid
+flowchart TD
     A[User Accesses CreateNow.xyz] --> B[Logs in]
     B --> C[Generates Content Using AI Models]
     C --> D[Content Saved and Shared]
@@ -138,6 +129,7 @@ Integrate tipping with social media platforms to extend the reach and utility of
 Technical Diagram: Tipping System Workflow
 
 ```mermaid
+flowchart TD
     A[User Likes Content] --> B[Tips Creator Using create]
     B --> C[Smart Contract Records Tip]
     C --> D[Creator Wallet Receives Tokens]
@@ -170,6 +162,7 @@ Enable proposal submissions for new features and community initiatives.
 Technical Diagram: DAO Governance Cycle
 
 ```mermaid
+flowchart TD
     A[Proposal Submission] --> B[Community Voting]
     B --> C[Smart Contract Executes Decision]
     C --> D[Resource Allocation or Feature Rollout]
@@ -202,6 +195,7 @@ Establish a research fund to support AI ethics and transparency initiatives.
 Technical Diagram: Content Economy Workflow
 
 ```mermaid
+flowchart TD
     A[User Generates Content] --> B[Mints as NFT]
     B --> C[Lists on Marketplace]
     C --> D[Buyer Purchases NFT Using create]
@@ -239,6 +233,7 @@ Strategic Reserves: 20%
 Technical Diagram: Token Utility Overview
 
 ```mermaid
+flowchart TD
     A[createnow.xyz Tokens] --> B[Credits for Content Generation]
     A --> C[Tipping Creators]
     A --> D[Minting NFTs]
@@ -263,6 +258,7 @@ Content Delivery: The generated content is returned to the user and optionally p
 Technical Diagram: Platform Architecture
 
 ```mermaid
+flowchart TD
     A[User Submits Request] --> B[Orchestration Agent]
     B --> C[AI Model Selection]
     C --> D[AI Model Execution]
